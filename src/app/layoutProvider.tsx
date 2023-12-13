@@ -6,10 +6,8 @@
 import { usePathname } from "next/navigation";
 import { Layout } from "@/components/layout";
 import React from "react";
+import {pathsToHideNavbar} from "@/components/constants/hide-nav"
 
-const pathsToHideNavbar = [
-    "/login",
-];
 
 export default function LayoutProvider({
                                            children,
